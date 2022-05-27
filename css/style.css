@@ -24,6 +24,9 @@ img {
 }
 #home {
     background-image: url(../images/main-bg.jpg);
+    background-blend-mode: hard-light;
+    background-color: lightgreen;
+    
     min-height: 100vh;
 }
 #home .page-title {
