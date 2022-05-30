@@ -99,6 +99,19 @@ img {
     text-align: center;
 }
 
+.news-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+article {
+    width: 74%;
+}
+aside {
+    width: 22%;
+}
+
 /* footer */
 footer {
     background: #432;
