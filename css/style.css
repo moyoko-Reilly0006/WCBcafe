@@ -204,6 +204,15 @@ aside {
     margin-top: 6%;
     margin-bottom: 50px;
 }
+.big-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.big-box img {
+    height: 94%;
+    width: 100%;
+    object-fit: cover;
+}
 /* footer */
 footer {
     background: #432;
@@ -275,5 +284,17 @@ footer p {
     }
     .post-title, .post-cat {
         margin-left: 80px;
+    }
+        
+    /* MENU */
+    .menu-content {
+        margin-top: 20%;
+    }
+    .big-box {
+        grid-column: auto;
+        grid-row: auto;
+    }
+    .big-box img {
+        height: auto;
     }
 }
